@@ -6,6 +6,14 @@ a {
     text-decoration: none; 
     font-weight: 700;  
     color:rebeccapurple;
+    text-align: center;
+}
+section a {
+    text-decoration: none; 
+    font-weight: 700;  
+    color:rebeccapurple;
+    display: block;
+    margin-top: 20px;
 }
 h1, h2, h3 {
     text-transform: uppercase; 
@@ -30,6 +38,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 30px;
 }
 ul > li {
     margin-right: 30px;
@@ -46,25 +55,31 @@ ul > li:last-child {
     border-bottom: 1px solid #000;
 }
 aside {
-   background-color: lavender;
+    background-color: lavender;
     padding: 10px 20px;
 }
 .post {
     padding-bottom: 20px;
 }
-footer {
-    font-size: 13px;
-    padding: 0 20px;
+.results {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    padding-right:10px;
+    
 }
 section {
     background-color: lavender;
     padding: 5px 20px;
-    margin-bottom: 20px;
-
 }
 .link {
-background-color: rebeccapurple;  
-color: white;
-padding: 8px 15px;
-margin-left: 10px;  
+    background-color: rebeccapurple;  
+    color: white;
+    padding: 8px 15px;
+    margin-left: 20px;  
 }
+footer {
+    font-size: 13px;
+    padding: 0 20px;
+}
+
