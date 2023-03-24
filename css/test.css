@@ -12,8 +12,6 @@ section a {
     text-decoration: none; 
     font-weight: 700;  
     color:rebeccapurple;
-    display: block;
-    margin-top: 20px;
 }
 h1, h2, h3 {
     text-transform: uppercase; 
@@ -41,13 +39,9 @@ ul {
     gap: 30px;
 }
 ul > li {
-    margin-right: 30px;
-
 }
 ul > li:last-child {
-    margin-right: 0px;
 }
-
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -64,8 +58,6 @@ aside {
 .results {
     display: flex;
     gap: 10px;
-    margin: 0 auto;
-    padding-right:10px;
 }
 section {
     background-color: lavender;
@@ -75,6 +67,8 @@ section {
     background-color: rebeccapurple;  
     color: white;
     padding: 8px 15px;
+    display: block;
+    margin-top: 20px;
 }
 footer {
     font-size: 13px;
